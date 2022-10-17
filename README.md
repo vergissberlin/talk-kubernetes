@@ -110,10 +110,16 @@ Möchtest Du mehr über die jeweiligen Vor- und Nachteile erfahren, kannst Du ge
 2. Überprüfen des Pods mit `kubectl get pods`
 3. Abstraktion von Pods mit `kubectl get deployments`
 4. Anweisungen für Pods mit `kubectl describe pods`
-
+5. Logs von Pods mit `kubectl logs <pod-name>`
+6. Löschen von Pods mit `kubectl delete pods <pod-name>`
+7. Löschen von Deployments mit `kubectl delete deployments <deployment-name>`
 
 ---
 
 ## Unterm Strich
 
 In diesem Artikel haben wir uns mit den Grundlagen von Docker und Kubernetes beschäftigt. Wir haben gesehen, wie Docker verwendet wird, um Container zu erstellen und zu verwalten. Wir haben auch gesehen, wie Kubernetes verwendet wird, um Containeranwendungen zu verwalten. Wir haben auch gesehen, wie Docker und Kubernetes zusammenarbeiten.
+
+## Contribute
+
+Du hast Verbesserungsvorschläge? Dann erstelle gerne ein Pull Request oder schreibe ein paar Zeilen in [Diskussionforum](https://github.com/vergissberlin/talk-docker/discussions) oder [Twitter](https://twitter.com/vergissberlin).
