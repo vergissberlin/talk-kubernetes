@@ -1,4 +1,4 @@
-# 💬 Talk: Von Docker bis Kubernetes
+# 💬 Talk: Kubernetes für Einsteiger
 
 ```text
 Dauer:      1h 30min - 2h
