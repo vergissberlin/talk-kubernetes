@@ -67,7 +67,7 @@ Si vous souhaitez en savoir plus sur les avantages et les inconvénients de chac
 #### Bureau Docker
 
 -   Installation locale de Kubernetes
--   Lokale Installation von Docker
+-   Installation locale de Docker
 -   Utilisation d'images Docker
 -   Gérer Kubernetes via Docker Desktop
 -   À déterminer
@@ -102,15 +102,22 @@ Si vous souhaitez en savoir plus sur les avantages et les inconvénients de chac
 
 1.  Démarrez le tableau de bord Kubernetes avec`minikube dashboard`
 
-### Lancer un module
+### Starten eines Pods
 
 1.  Création d'un module avec`kubectl run hello-world --image=hello-world`
 2.  Vérification du pod avec`kubectl get pods`
 3.  Prélèvement des gousses avec`kubectl get deployments`
 4.  Instructions pour les dosettes avec`kubectl describe pods`
+5.  Journaux des pods avec`kubectl logs <pod-name>`
+6.  Supprimer les pods avec`kubectl delete pods <pod-name>`
+7.  Suppression de déploiements avec`kubectl delete deployments <deployment-name>`
 
 * * *
 
 ## ligne de fond
 
 Dans cet article, nous avons couvert les bases de Docker et Kubernetes. Nous avons vu comment Docker est utilisé pour créer et gérer des conteneurs. Nous avons également vu comment Kubernetes est utilisé pour gérer les applications conteneurisées. Nous avons également vu comment Docker et Kubernetes fonctionnent ensemble.
+
+## Contribuer
+
+Avez-vous des suggestions d'amélioration? Alors n'hésitez pas à créer une pull request ou à écrire quelques lignes dans[forum de discussion](https://github.com/vergissberlin/talk-docker/discussions)ou[Twitter](https://twitter.com/vergissberlin).
