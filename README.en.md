@@ -14,7 +14,7 @@ At the end of the talk, you will show how you can basically deal with Kubernetes
 
 ## requirements
 
--   [ ] Laptop mit Docker installiert
+-   [ ] Laptop with Docker installed
 -   [ ] Docker Hub Account
 -   [ ] GitHub Account
 -   [ ] (optional) Kubernetes Cluster
@@ -92,7 +92,7 @@ If you would like to know more about the advantages and disadvantages of each, y
 1.  installation of[ugly](https://minikube.sigs.k8s.io/docs/start/)
 2.  Configure shortcut for minikube in shell (e.g.`alias minikube="minikube.exe"`)
 3.  installation of[kubectl](https://kubernetes.io/docs/tasks/tools/install-kubectl/)
-4.  Shortcut für kubectl in der Shell konfigurieren (z.B. `alias kubectl="kubectl.exe"`)
+4.  Configure shortcut for kubectl in the shell (e.g.`alias kubectl="kubectl.exe"`)
 
 ##### Start Kubernetes Cluster
 
@@ -108,9 +108,16 @@ If you would like to know more about the advantages and disadvantages of each, y
 2.  Checking the pod with`kubectl get pods`
 3.  Abstraction from pods with`kubectl get deployments`
 4.  Instructions for pods with`kubectl describe pods`
+5.  Logs from pods with`kubectl logs <pod-name>`
+6.  Delete pods with`kubectl delete pods <pod-name>`
+7.  Deleting deployments with`kubectl delete deployments <deployment-name>`
 
 * * *
 
 ## bottom line
 
 In this article we covered the basics of Docker and Kubernetes. We've seen how Docker is used to create and manage containers. We also saw how Kubernetes is used to manage containerized applications. We also saw how Docker and Kubernetes work together.
+
+## Contribute
+
+Do you have suggestions for improvement? Then feel free to create a pull request or write a few lines in[discussion forum](https://github.com/vergissberlin/talk-docker/discussions)or[Twitter](https://twitter.com/vergissberlin).
