@@ -22,6 +22,8 @@ Am Ende des Talks weist Du, wie du wie Du grundlegend mit Kubernetes umgehen kan
 - [ ] (optional) Google Cloud SDK
 - [ ] (optional) Google Cloud Shell
 
+Erfüllst Du nicht alle Punkte, ist das kein Problem. Wir werden gemeinsam die Punkte erfüllen, die Du nicht erfüllt hast.
+
 ---
 
 ## Begriffe
