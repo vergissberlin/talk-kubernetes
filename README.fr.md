@@ -1,4 +1,6 @@
-# 💬 Conférence : Kubernetes pour les débutants
+{% include_relative .github/templates/header.md %}
+
+## 💬 Conférence : Kubernetes pour les débutants
 
 ```text
 Dauer:      1h 30min - 2h
@@ -8,11 +10,11 @@ Sprache:    Deutsch
 Author:     André Lademann <vergissberlin@gmail.com>
 ```
 
-## Ziel des Talks
+### Ziel des Talks
 
 À la fin de l'exposé, vous montrerez comment vous pouvez gérer Kubernetes. Vous pouvez déployer et mettre à l'échelle vos conteneurs Docker dans Kubernetes. Vous pouvez configurer et gérer des clusters Kubernetes.
 
-## conditions
+### conditions
 
 -   [ ] Ordinateur portable avec Docker installé
 -   [ ] Compte Hub Docker
@@ -26,37 +28,33 @@ Si vous ne remplissez pas tous les points, ce n'est pas un problème. Ensemble, 
 
 * * *
 
-## termes
+### termes
 
-### Kubernetes
+#### Kubernetes
 
 Kubernetes est une plate-forme open source permettant d'automatiser le déploiement, la mise à l'échelle et la gestion des applications conteneurisées.
 
-#### Conteneur Kubernetes
+##### Conteneur Kubernetes
 
 Un conteneur Kubernetes est une instance exécutable d'une image Docker. Un conteneur est un environnement isolé composé de plusieurs couches. Chaque couche contient un ensemble d'instructions qui sont exécutées lors de la création d'un conteneur. Si un conteneur contient plusieurs couches, la dernière couche est utilisée comme base et les couches précédentes sont ajoutées en superposition.
 
-#### Capsules Kubernetes
+##### Capsules Kubernetes
 
 Un pod est un groupe d'un ou plusieurs conteneurs qui s'exécutent ensemble et partagent les mêmes ressources de stockage et de réseau. Un pod est la plus petite unité pouvant être créée et gérée dans Kubernetes.
 
-#### Services Kubernetes
+##### Services Kubernetes
 
 Un service est une abstraction qui représente un groupe de pods sous la forme d'un ensemble logique. Les services permettent aux pods de se trouver et de se parler sans que les pods se connaissent. Les services peuvent également être utilisés pour distribuer des pods dans un cluster.
 
-#### Nœuds Kubernetes
+##### Nœuds Kubernetes
 
 Un nœud est une machine virtuelle ou physique qui exécute des pods Kubernetes. Un nœud peut exécuter un ou plusieurs pods.
 
-### Grappes Kubernetes
+#### Grappes Kubernetes
 
 Un cluster est un groupe de nœuds travaillant ensemble pour exécuter des applications conteneurisées. Un cluster se compose d'au moins un nœud maître et de plusieurs nœuds de travail.
 
 ## Pratique
-
-# Atelier - De Docker à Kubernetes
-
-## Kubernetes
 
 ### MiniKube contre Docker Desktop contre Rancher Desktop contre Kind
 
@@ -64,7 +62,7 @@ Il existe plusieurs façons d'installer Kubernetes localement. Nous nous concent
 
 Si vous souhaitez en savoir plus sur les avantages et les inconvénients de chacun, n'hésitez pas à le faire[ici](https://itnext.io/goodbye-docker-desktop-hello-minikube-3649f2a1c469)lis.
 
-#### Bureau Docker
+### Bureau Docker
 
 -   Installation locale de Kubernetes
 -   Installation locale de Docker
@@ -72,7 +70,7 @@ Si vous souhaitez en savoir plus sur les avantages et les inconvénients de chac
 -   Gérer Kubernetes via Docker Desktop
 -   À déterminer
 
-##### Installation de Docker Desktop
+#### Installation de Docker Desktop
 
 1.  installation de[Bureau Docker](https://www.docker.com/products/docker-desktop)
 
@@ -102,7 +100,7 @@ Si vous souhaitez en savoir plus sur les avantages et les inconvénients de chac
 
 1.  Démarrez le tableau de bord Kubernetes avec`minikube dashboard`
 
-### Starten eines Pods
+### Lancer un module
 
 1.  Création d'un module avec`kubectl run hello-world --image=hello-world`
 2.  Vérification du pod avec`kubectl get pods`
@@ -121,3 +119,5 @@ Dans cet article, nous avons couvert les bases de Docker et Kubernetes. Nous avo
 ## Contribuer
 
 Avez-vous des suggestions d'amélioration? Alors n'hésitez pas à créer une pull request ou à écrire quelques lignes dans[forum de discussion](https://github.com/vergissberlin/talk-docker/discussions)ou[Twitter](https://twitter.com/vergissberlin).
+
+{% include_relative .github/templates/footer.md %}
