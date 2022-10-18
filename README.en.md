@@ -14,7 +14,7 @@ Author:     André Lademann <vergissberlin@gmail.com>
 
 At the end of the talk, you will show how you can basically deal with Kubernetes. You can deploy and scale your Docker containers in Kubernetes. You can set up and manage Kubernetes clusters.
 
-### requirements
+### Vorraussetzungen
 
 -   [ ] Laptop with Docker installed
 -   [ ] Docker Hub Account
