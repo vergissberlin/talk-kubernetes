@@ -1,4 +1,6 @@
-# 💬 Talk: Kubernetes for beginners
+{% include_relative .github/templates/header.md %}
+
+## 💬 Talk: Kubernetes for beginners
 
 ```text
 Dauer:      1h 30min - 2h
@@ -8,11 +10,11 @@ Sprache:    Deutsch
 Author:     André Lademann <vergissberlin@gmail.com>
 ```
 
-## goal of the talk
+### goal of the talk
 
 At the end of the talk, you will show how you can basically deal with Kubernetes. You can deploy and scale your Docker containers in Kubernetes. You can set up and manage Kubernetes clusters.
 
-## requirements
+### requirements
 
 -   [ ] Laptop with Docker installed
 -   [ ] Docker Hub Account
@@ -26,37 +28,33 @@ If you don't fulfill all the points, that's no problem. Together we will fulfill
 
 * * *
 
-## terms
+### terms
 
-### Kubernetes
+#### Kubernetes
 
 Kubernetes is an open-source platform for automating the deployment, scaling, and management of containerized applications.
 
-#### Kubernetes Container
+##### Kubernetes Container
 
 A Kubernetes container is an executable instance of a Docker image. A container is an isolated environment made up of a number of layers. Each layer contains a set of instructions that are executed when a container is created. If a container contains multiple layers, the last layer is used as the base and the previous layers are added as an overlay.
 
-#### Kubernetes Pods
+##### Kubernetes Pods
 
 A pod is a group of one or more containers that run together and share the same storage and network resource. A pod is the smallest unit that can be created and managed in Kubernetes.
 
-#### Kubernetes Services
+##### Kubernetes Services
 
 A service is an abstraction that represents a group of pods as a logical set. Services allow pods to find and talk to each other without the pods knowing each other. Services can also be used to distribute pods across a cluster.
 
-#### Kubernetes Nodes
+##### Kubernetes Nodes
 
 A node is a virtual or physical machine that runs Kubernetes pods. A node can run one or more pods.
 
-### Kubernetes Clusters
+#### Kubernetes Clusters
 
 A cluster is a group of nodes working together to run containerized applications. A cluster consists of at least one master node and several worker nodes.
 
 ## Hands-On
-
-# Workshop - From Docker to Kubernetes
-
-## Kubernetes
 
 ### MiniKube vs Docker Desktop vs Rancher Desktop vs Kind
 
@@ -64,7 +62,7 @@ There are several ways to install Kubernetes locally. We will focus on installin
 
 If you would like to know more about the advantages and disadvantages of each, you are welcome to do so[here](https://itnext.io/goodbye-docker-desktop-hello-minikube-3649f2a1c469)read.
 
-#### Docker Desktop
+### Docker Desktop
 
 -   Local installation of Kubernetes
 -   Local installation of Docker
@@ -72,7 +70,7 @@ If you would like to know more about the advantages and disadvantages of each, y
 -   Managing Kubernetes via Docker Desktop
 -   TBD
 
-##### Installing Docker Desktop
+#### Installing Docker Desktop
 
 1.  installation of[Docker Desktop](https://www.docker.com/products/docker-desktop)
 
@@ -121,3 +119,5 @@ In this article we covered the basics of Docker and Kubernetes. We've seen how D
 ## Contribute
 
 Do you have suggestions for improvement? Then feel free to create a pull request or write a few lines in[discussion forum](https://github.com/vergissberlin/talk-docker/discussions)or[Twitter](https://twitter.com/vergissberlin).
+
+{% include_relative .github/templates/footer.md %}
