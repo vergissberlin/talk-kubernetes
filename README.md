@@ -1,4 +1,6 @@
-# 💬 Talk: Kubernetes für Einsteiger
+{% include_relative .github/templates/header.md %}
+
+## 💬 Talk: Kubernetes für Einsteiger
 
 ```text
 Dauer:      1h 30min - 2h
@@ -8,11 +10,11 @@ Sprache:    Deutsch
 Author:     André Lademann <vergissberlin@gmail.com>
 ```
 
-## Ziel des Talks
+### Ziel des Talks
 
 Am Ende des Talks weist Du, wie du wie Du grundlegend mit Kubernetes umgehen kannst. Du kannst Deine Docker-Container in Kubernetes deployen und skalieren. Du kannst Kubernetes-Cluster aufsetzen und verwalten.
 
-## Vorraussetzungen
+### Vorraussetzungen
 
 - [ ] Laptop mit Docker installiert
 - [ ] Docker Hub Account
@@ -26,38 +28,33 @@ Erfüllst Du nicht alle Punkte, ist das kein Problem. Wir werden gemeinsam die P
 
 ---
 
-## Begriffe
+### Begriffe
 
-### Kubernetes
+#### Kubernetes
 
 Kubernetes ist eine Open-Source-Plattform für die Automatisierung der Bereitstellung, Skalierung und Verwaltung von Containeranwendungen.
 
-#### Kubernetes Container
+##### Kubernetes Container
 
 Ein Kubernetes Container ist eine ausführbare Instanz eines Docker Images. Ein Container ist eine isolierte Umgebung, die aus einer Reihe von Schichten besteht. Jede Schicht enthält eine Reihe von Anweisungen, die beim Erstellen eines Containers ausgeführt werden. Wenn ein Container mehrere Schichten enthält, wird die letzte Schicht als Basis verwendet und die vorherigen Schichten als Overlay hinzugefügt.
 
-#### Kubernetes Pods
+##### Kubernetes Pods
 
 Ein Pod ist eine Gruppe von einem oder mehreren Containern, die gemeinsam ausgeführt werden und die gleiche Speicher- und Netzwerkressource teilen. Ein Pod ist die kleinste Einheit, die in Kubernetes erstellt und verwaltet werden kann.
 
-#### Kubernetes Services
+##### Kubernetes Services
 
 Ein Service ist eine Abstraktion, die eine Gruppe von Pods als ein logisches Set darstellt. Services ermöglichen es, Pods zu finden und miteinander zu kommunizieren, ohne dass die Pods sich selbst kennen. Services können auch verwendet werden, um Pods über einen Cluster hinweg zu verteilen.
 
-#### Kubernetes Nodes
+##### Kubernetes Nodes
 
 Ein Node ist eine virtuelle oder physische Maschine, auf der Kubernetes Pods ausgeführt werden. Ein Node kann einen oder mehrere Pods ausführen.
 
-### Kubernetes Clusters
+#### Kubernetes Clusters
 
 Ein Cluster ist eine Gruppe von Nodes, die zusammen arbeiten, um Containeranwendungen auszuführen. Ein Cluster besteht aus mindestens einem Master-Node und mehreren Worker-Node.
 
-
 ## Hands-On
-
-# Workshop - Von Docker bis Kubertes
-
-## Kubernetes
 
 ### MiniKube vs Docker Desktop vs Rancher Desktop vs Kind
 
@@ -66,28 +63,28 @@ Es gibt verschiedene Möglichkeiten Kubernetes lokal zu installieren. Wir werden
 Möchtest Du mehr über die jeweiligen Vor- und Nachteile erfahren, kannst Du gerne [hier](https://itnext.io/goodbye-docker-desktop-hello-minikube-3649f2a1c469
 ) nachlesen.
 
-#### Docker Desktop
+### Docker Desktop
 
-* Lokale Installation von Kubernetes
-* Lokale Installation von Docker
-* Verwendung von Docker Images
-* Verwaltung von Kubernetes über Docker Desktop
-* TBD
+- Lokale Installation von Kubernetes
+- Lokale Installation von Docker
+- Verwendung von Docker Images
+- Verwaltung von Kubernetes über Docker Desktop
+- TBD
 
-##### Installation von Docker Desktop
+#### Installation von Docker Desktop
 
 1. Installation von [Docker Desktop](https://www.docker.com/products/docker-desktop)
 
 #### Rancher Desktop
 
-* Lokale Installation von Kubernetes
-* Lokale Installation von Docker
-* TBD
+- Lokale Installation von Kubernetes
+- Lokale Installation von Docker
+- TBD
 
 #### MiniKube
 
-* Lokale Installation von Kubernetes
-* TBD
+- Lokale Installation von Kubernetes
+- TBD
 
 ##### Installation von MiniKube
 
@@ -123,3 +120,5 @@ In diesem Artikel haben wir uns mit den Grundlagen von Docker und Kubernetes bes
 ## Contribute
 
 Du hast Verbesserungsvorschläge? Dann erstelle gerne ein Pull Request oder schreibe ein paar Zeilen in [Diskussionforum](https://github.com/vergissberlin/talk-docker/discussions) oder [Twitter](https://twitter.com/vergissberlin).
+
+{% include_relative .github/templates/footer.md %}
