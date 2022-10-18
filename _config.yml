@@ -1,6 +1,6 @@
 remote_theme: pages-themes/architect@v0.2.0
 plugins:
   - jekyll-remote-theme
-title: React Native für Einsteiger
-description: In diesem Teil der Talkreihe wird die Entwicklungsumgebung für React Native eingerichtet. Wir schauen uns an, wie wir React Native mit Expo entwickeln können. Außerdem wird erklärt, wie wir React Native ohne Expo entwickeln können.
+title: Kubernetes für Einsteiger
+description: Am Ende des Talks weist Du, wie du wie Du grundlegend mit Kubernetes umgehen kannst. Du kannst Deine Docker-Container in Kubernetes deployen und skalieren. Du kannst Kubernetes-Cluster aufsetzen und verwalten.
 show_downloads: true
