@@ -1,10 +1,3 @@
----
-
-title: "Talk: Kubernetes für Einsteiger"
-description: "Am Ende des Talks weist Du, wie du wie Du grundlegend mit Kubernetes umgehen kannst. Du kannst Deine Docker-Container in Kubernetes deployen und skalieren. Du kannst Kubernetes-Cluster aufsetzen und verwalten."
-
----
-
 {% include_relative .github/templates/header.md %}
 
 ## 💬 Talk: Kubernetes für Einsteiger
