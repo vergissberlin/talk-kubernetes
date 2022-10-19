@@ -1,3 +1,9 @@
+* * *
+
+titre : "LISEZMOI"
+
+## description : "À la fin de l'exposé, vous montrerez comment vous pouvez gérer Kubernetes. Vous pouvez déployer et mettre à l'échelle vos conteneurs Docker dans Kubernetes. Vous pouvez configurer et gérer des clusters Kubernetes."
+
 {% include_relative .github/templates/header.md %}
 
 ## 💬 Conférence : Kubernetes pour les débutants
@@ -118,6 +124,6 @@ Dans cet article, nous avons couvert les bases de Docker et Kubernetes. Nous avo
 
 ## Contribuer
 
-Avez-vous des suggestions d'amélioration? Alors n'hésitez pas à créer une pull request ou à écrire quelques lignes dans[forum de discussion](https://github.com/vergissberlin/talk-docker/discussions)ou[Twitter](https://twitter.com/vergissberlin).
+Avez-vous des suggestions d'amélioration? Alors n'hésitez pas à créer une pull request ou à écrire quelques lignes dans[Diskussionforum](https://github.com/vergissberlin/talk-docker/discussions)ou[Twitter](https://twitter.com/vergissberlin).
 
 {% include_relative .github/templates/footer.md %}
