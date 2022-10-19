@@ -1,8 +1,9 @@
 * * *
 
-titre : "LISEZMOI"
+title : "Discussion : Kubernetes pour les débutants"
+description : "À la fin de l'exposé, vous montrerez comment vous pouvez gérer Kubernetes. Vous pouvez déployer et mettre à l'échelle vos conteneurs Docker dans Kubernetes. Vous pouvez configurer et gérer des clusters Kubernetes."
 
-## description : "À la fin de l'exposé, vous montrerez comment vous pouvez gérer Kubernetes. Vous pouvez déployer et mettre à l'échelle vos conteneurs Docker dans Kubernetes. Vous pouvez configurer et gérer des clusters Kubernetes."
+* * *
 
 {% include_relative .github/templates/header.md %}
 
@@ -50,7 +51,7 @@ Un pod est un groupe d'un ou plusieurs conteneurs qui s'exécutent ensemble et p
 
 ##### Services Kubernetes
 
-Un service est une abstraction qui représente un groupe de pods sous la forme d'un ensemble logique. Les services permettent aux pods de se trouver et de se parler sans que les pods se connaissent. Les services peuvent également être utilisés pour distribuer des pods dans un cluster.
+Ein Service ist eine Abstraktion, die eine Gruppe von Pods als ein logisches Set darstellt. Services ermöglichen es, Pods zu finden und miteinander zu kommunizieren, ohne dass die Pods sich selbst kennen. Services können auch verwendet werden, um Pods über einen Cluster hinweg zu verteilen.
 
 ##### Nœuds Kubernetes
 
@@ -66,7 +67,7 @@ Un cluster est un groupe de nœuds travaillant ensemble pour exécuter des appli
 
 Il existe plusieurs façons d'installer Kubernetes localement. Nous nous concentrerons ici sur l'installation de MiniKube.
 
-Si vous souhaitez en savoir plus sur les avantages et les inconvénients de chacun, n'hésitez pas à le faire[ici](https://itnext.io/goodbye-docker-desktop-hello-minikube-3649f2a1c469)lis.
+Möchtest Du mehr über die jeweiligen Vor- und Nachteile erfahren, kannst Du gerne [ici](https://itnext.io/goodbye-docker-desktop-hello-minikube-3649f2a1c469)lis.
 
 ### Bureau Docker
 
@@ -104,7 +105,7 @@ Si vous souhaitez en savoir plus sur les avantages et les inconvénients de chac
 
 ##### Tableau de bord Kubernetes
 
-1.  Démarrez le tableau de bord Kubernetes avec`minikube dashboard`
+1.  Starten des Kubernetes Dashboard mit `minikube dashboard`
 
 ### Lancer un module
 
@@ -124,6 +125,6 @@ Dans cet article, nous avons couvert les bases de Docker et Kubernetes. Nous avo
 
 ## Contribuer
 
-Avez-vous des suggestions d'amélioration? Alors n'hésitez pas à créer une pull request ou à écrire quelques lignes dans[Diskussionforum](https://github.com/vergissberlin/talk-docker/discussions)ou[Twitter](https://twitter.com/vergissberlin).
+Avez-vous des suggestions d'amélioration? Alors n'hésitez pas à créer une pull request ou à écrire quelques lignes dans[forum de discussion](https://github.com/vergissberlin/talk-docker/discussions)ou[Twitter](https://twitter.com/vergissberlin).
 
 {% include_relative .github/templates/footer.md %}
