@@ -1,8 +1,9 @@
 * * *
 
-title: "README"
+title: "Talk: Kubernetes for Beginners"
+description: "At the end of the talk, you will show how you can basically deal with Kubernetes. You can deploy and scale your Docker containers in Kubernetes. You can set up and manage Kubernetes clusters."
 
-## description: "At the end of the talk, you will show how you can basically deal with Kubernetes. You can deploy and scale your Docker containers in Kubernetes. You can set up and manage Kubernetes clusters."
+* * *
 
 {% include_relative .github/templates/header.md %}
 
