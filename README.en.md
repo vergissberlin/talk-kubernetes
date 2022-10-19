@@ -1,10 +1,3 @@
-* * *
-
-title: "Talk: Kubernetes for Beginners"
-description: "At the end of the talk, you will show how you can basically deal with Kubernetes. You can deploy and scale your Docker containers in Kubernetes. You can set up and manage Kubernetes clusters."
-
-* * *
-
 {% include_relative .github/templates/header.md %}
 
 ## 💬 Talk: Kubernetes for beginners
@@ -95,7 +88,7 @@ If you would like to know more about the advantages and disadvantages of each, y
 ##### Installing MiniKube
 
 1.  installation of[ugly](https://minikube.sigs.k8s.io/docs/start/)
-2.  Configure shortcut for minikube in shell (e.g.`alias minikube="minikube.exe"`)
+2.  Shortcut für minikube in der Shell konfigurieren (z.B. `alias minikube="minikube.exe"`)
 3.  installation of[kubectl](https://kubernetes.io/docs/tasks/tools/install-kubectl/)
 4.  Configure shortcut for kubectl in the shell (e.g.`alias kubectl="kubectl.exe"`)
 
@@ -114,12 +107,12 @@ If you would like to know more about the advantages and disadvantages of each, y
 3.  Abstraction from pods with`kubectl get deployments`
 4.  Instructions for pods with`kubectl describe pods`
 5.  Logs from pods with`kubectl logs <pod-name>`
-6.  Delete pods with`kubectl delete pods <pod-name>`
+6.  Löschen von Pods mit `kubectl delete pods <pod-name>`
 7.  Deleting deployments with`kubectl delete deployments <deployment-name>`
 
 * * *
 
-## bottom line
+## Unterm Strich
 
 In this article we covered the basics of Docker and Kubernetes. We've seen how Docker is used to create and manage containers. We also saw how Kubernetes is used to manage containerized applications. We also saw how Docker and Kubernetes work together.
 
