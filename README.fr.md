@@ -1,6 +1,6 @@
-{% include_relative .github/templates/header.md %}
+{% include_relatif .github / modèles / en-tête.md%}
 
-## 💬 Conférence : Kubernetes pour les débutants
+## 💬 Talk: Kubernetes pour les débutants
 
 ```text
 Dauer:      1h 30min - 2h
@@ -12,112 +12,112 @@ Author:     André Lademann <vergissberlin@gmail.com>
 
 ### Ziel des Talks
 
-À la fin de l'exposé, vous montrerez comment vous pouvez gérer Kubernetes. Vous pouvez déployer et mettre à l'échelle vos conteneurs Docker dans Kubernetes. Vous pouvez configurer et gérer des clusters Kubernetes.
+À la fin du talc, vous montrez comment vous pouvez fondamentalement gérer Kubernetes. Vous pouvez mettre à l'échelle et mettre à l'échelle vos conteneurs Docker dans Kubernetes. Vous pouvez mettre et gérer les clusters Kubernetes.
 
-### conditions
+### Condition préalable
 
--   [ ] Ordinateur portable avec Docker installé
--   [ ] Compte Hub Docker
--   [ ] Compte GitHub
--   [ ] (facultatif) Cluster Kubernetes
--   [ ] (facultatif) Compte Google Cloud
--   [ ] (facultatif) SDK Google Cloud
--   [ ] (facultatif) Google Cloud Shell
+-   [ ] Ordinateur portable installé avec Docker
+-   [ ] Compte Docker Hub
+-   [ ] Compte github
+-   [ ] (facultatif) cluster kubernetes
+-   [ ] (facultatif) Google Cloud Compte
+-   [ ] (Facultatif) Google Cloud SDK
+-   [ ] (Facultatif) Google Cloud Shell
 
-Si vous ne remplissez pas tous les points, ce n'est pas un problème. Ensemble, nous remplirons les points que vous n'avez pas remplis.
+Si vous ne rencontrez pas tous les points, ce n'est pas un problème. Nous allons rencontrer les points que vous n'avez pas rencontrés ensemble.
 
 * * *
 
-### termes
+### Termes
 
 #### Kubernetes
 
-Kubernetes est une plate-forme open source permettant d'automatiser le déploiement, la mise à l'échelle et la gestion des applications conteneurisées.
+Kubernetes est une plate-forme open source pour automatiser la fourniture, la mise à l'échelle et la gestion des applications de conteneurs.
 
-##### Conteneur Kubernetes
+##### Conteneur de Kubernetes
 
-Un conteneur Kubernetes est une instance exécutable d'une image Docker. Un conteneur est un environnement isolé composé de plusieurs couches. Chaque couche contient un ensemble d'instructions qui sont exécutées lors de la création d'un conteneur. Si un conteneur contient plusieurs couches, la dernière couche est utilisée comme base et les couches précédentes sont ajoutées en superposition.
+Un conteneur Kubernetes est une instance exécutable d'une image docker. Un conteneur est un environnement isolé qui se compose d'une série de couches. Chaque couche contient un certain nombre d'instructions qui sont effectuées lors de la création d'un conteneur. Si un conteneur contient plusieurs couches, la dernière couche est utilisée comme base et les couches précédentes sont ajoutées comme superposition.
 
-##### Capsules Kubernetes
+##### Cube
 
-Un pod est un groupe d'un ou plusieurs conteneurs qui s'exécutent ensemble et partagent les mêmes ressources de stockage et de réseau. Un pod est la plus petite unité pouvant être créée et gérée dans Kubernetes.
+Un pod est un groupe d'un ou plusieurs conteneurs qui sont effectués ensemble et partagent la même mémoire et la même ressource réseau. Un pod est la plus petite unité qui peut être créée et gérée à Kubernetes.
 
 ##### Services Kubernetes
 
-Un service est une abstraction qui représente un groupe de pods sous la forme d'un ensemble logique. Les services permettent aux pods de se trouver et de se parler sans que les pods se connaissent. Les services peuvent également être utilisés pour distribuer des pods dans un cluster.
+Un service est une abstraction qui représente un groupe de pods comme un ensemble logique. Les services permettent de trouver des pods et de communiquer entre eux sans que les gousses se connaissent. Les services peuvent également être utilisés pour distribuer des pods via un cluster.
 
-##### Nœuds Kubernetes
+##### Nœuds kubernetes
 
-Un nœud est une machine virtuelle ou physique qui exécute des pods Kubernetes. Un nœud peut exécuter un ou plusieurs pods.
+Un nœud est une machine virtuelle ou physique sur laquelle des pods kubernetes sont effectués. Un nœud peut exécuter une ou plusieurs pods.
 
-#### Grappes Kubernetes
+#### Clusters de Kubernetes
 
-Un cluster est un groupe de nœuds travaillant ensemble pour exécuter des applications conteneurisées. Un cluster se compose d'au moins un nœud maître et de plusieurs nœuds de travail.
+Un cluster est un groupe de nœuds qui travaillent ensemble pour effectuer des applications de conteneurs. Un cluster se compose d'au moins d'un nœud maître et de plusieurs nœuds de travailleur.
 
 ## Pratique
 
-### MiniKube contre Docker Desktop contre Rancher Desktop contre Kind
+### Minikube vs Docker Desktop vs Rancher Desktop vs Kind
 
-Il existe plusieurs façons d'installer Kubernetes localement. Nous nous concentrerons ici sur l'installation de MiniKube.
+Il existe différentes façons d'installer Kubernetes localement. Nous nous concentrerons sur l'installation de Miniube.
 
-Si vous souhaitez en savoir plus sur les avantages et les inconvénients de chacun, n'hésitez pas à le faire[ici](https://itnext.io/goodbye-docker-desktop-hello-minikube-3649f2a1c469)lis.
+Si vous souhaitez en savoir plus sur les avantages et les inconvénients respectifs, vous êtes les bienvenus[ici](https://itnext.io/goodbye-docker-desktop-hello-minikube-3649f2a1c469)lire.
 
-### Bureau Docker
+### Docker Desktop
 
 -   Installation locale de Kubernetes
 -   Installation locale de Docker
 -   Utilisation d'images Docker
--   Gérer Kubernetes via Docker Desktop
--   À déterminer
+-   Gestion de Kubernetes via Docker Desktop
+-   TBD
 
-#### Installation de Docker Desktop
+#### Installation Von Docker Desktop
 
-1.  installation de[Bureau Docker](https://www.docker.com/products/docker-desktop)
+1.  Installation de[Docker Desktop](https://www.docker.com/products/docker-desktop)
 
-#### Bureau de l'éleveur
+#### Bureau de rancher
 
 -   Installation locale de Kubernetes
 -   Installation locale de Docker
--   À déterminer
+-   TBD
 
-#### moche
+#### Laid
 
 -   Installation locale de Kubernetes
--   À déterminer
+-   TBD
 
-##### Installer MiniKube
+##### Installation de minikube
 
-1.  installation de[moche](https://minikube.sigs.k8s.io/docs/start/)
-2.  Configurez le raccourci pour minikube dans le shell (par ex.`alias minikube="minikube.exe"`)
-3.  installation de[kubectl](https://kubernetes.io/docs/tasks/tools/install-kubectl/)
-4.  Configurez le raccourci pour kubectl dans le shell (par ex.`alias kubectl="kubectl.exe"`)
+1.  Installation de[Laid](https://minikube.sigs.k8s.io/docs/start/)
+2.  Configurez le raccourci pour Minikube dans le shell (par exemple.`alias minikube="minikube.exe"`)
+3.  Installation de[à Berctl](https://kubernetes.io/docs/tasks/tools/install-kubectl/)
+4.  Configurez le raccourci pour Kubectl dans le shell (par exemple.`alias kubectl="kubectl.exe"`)
 
-##### Démarrer le cluster Kubernetes
+##### Démarrer le cluster de Kubernetes
 
-1.  Démarrez le cluster Kubernetes avec`minikube start`
+1.  Démarrer le cluster Kubernet`minikube start`
 
 ##### Tableau de bord Kubernetes
 
-1.  Démarrez le tableau de bord Kubernetes avec`minikube dashboard`
+1.  Démarrez le tableau de bord Kubernet avec`minikube dashboard`
 
-### Lancer un module
+### Début d'un pod
 
-1.  Création d'un module avec`kubectl run hello-world --image=hello-world`
-2.  Vérification du pod avec`kubectl get pods`
-3.  Extraction à partir de gousses avec`kubectl get deployments`
-4.  Instructions pour les dosettes avec`kubectl describe pods`
-5.  Journaux des pods avec`kubectl logs <pod-name>`
-6.  Supprimer les pods avec`kubectl delete pods <pod-name>`
+1.  Créer une pod avec`kubectl run hello-world --image=hello-world`
+2.  Vérifiez le pod avec`kubectl get pods`
+3.  Abstraction des gousses avec`kubectl get deployments`
+4.  Instructions pour les gousses avec`kubectl describe pods`
+5.  Journaux à partir des gousses avec`kubectl logs <pod-name>`
+6.  Suppression des gousses avec`kubectl delete pods <pod-name>`
 7.  Suppression de déploiements avec`kubectl delete deployments <deployment-name>`
 
 * * *
 
-## ligne de fond
+## À côté de
 
-Dans cet article, nous avons couvert les bases de Docker et Kubernetes. Nous avons vu comment Docker est utilisé pour créer et gérer des conteneurs. Nous avons également vu comment Kubernetes est utilisé pour gérer les applications conteneurisées. Nous avons également vu comment Docker et Kubernetes fonctionnent ensemble.
+Dans cet article, nous avons traité les bases de Docker et Kubernetes. Nous avons vu comment Docker est utilisé pour créer et gérer des conteneurs. Nous avons également vu comment Kubernetes est utilisé pour gérer les applications de conteneurs. Nous avons également vu comment Docker et Kubernetes travaillent ensemble.
 
 ## Contribuer
 
-Avez-vous des suggestions d'amélioration? Alors n'hésitez pas à créer une pull request ou à écrire quelques lignes dans[forum de discussion](https://github.com/vergissberlin/talk-docker/discussions)ou[Twitter](https://twitter.com/vergissberlin).
+Avez-vous des suggestions d'amélioration? Puis aime créer une demande de traction ou écrire quelques lignes dans[Forum pour la discussion](https://github.com/vergissberlin/talk-docker/discussions)ou[Gazouillement](https://twitter.com/vergissberlin).
 
-{% include_relative .github/templates/footer.md %}
+{% inclut_relative .github / modèles / footter.md%}
